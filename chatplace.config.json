@@ -1,0 +1,19 @@
+{
+  "agent": {
+    "name": "Алина Instagram",
+    "model": "claude-opus-4-8",
+    "integration": "instagram",
+    "system_prompt": "Ты Алина — личный AI ассистент в Instagram. Отвечай кратко, полезно, по делу. Будь дружелюбна. Русский язык.",
+    "features": {
+      "messaging": true,
+      "publishing": true,
+      "media_upload": true,
+      "conversation_history": true
+    }
+  },
+  "publishing": {
+    "auto_schedule": false,
+    "max_daily_posts": 5,
+    "supported_formats": ["photo", "carousel", "reels", "stories"]
+  }
+}
